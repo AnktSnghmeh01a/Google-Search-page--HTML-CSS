@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    background-color: rgb(71, 70, 70);
+    margin: 1%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    height: 100px;
+    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+div a{
+    color: aliceblue;
+}
+.block1{
+    /* background-color: rgb(238, 238, 240); */
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px;
+    font-size: 20px;
+    
+    
+}
+a:hover{
+    color: rgb(221, 32, 32);
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.button1{
+    height: 40%;
+    width: 10%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(138, 138, 211);
+    text-decoration: none;
+    font-weight:900;    
+}
+.button1:hover{
+    background-color: rgb(58, 35, 190);
+        color: black;
+
+}
+
+.block2{
+    /* background-color: rgb(255, 0, 0); */
+    display:flex;
+    justify-content: center;
+    
+}
+.block3{
+    /* background-color: rgb(255, 187, 0); */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 2%;
+   /* justify-content: center; */
+    
+}
+.buttons2 button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2%;
+}
+.buttons2 button:hover{
+    background-color: blue;
+}
+input{
+    width:45%;
+    height: 30%;
+    border-radius: 15px;
+    /* align-self: center; */
+}
+.buttons2{
+    display: flex;
+    gap: 10px;
+    width:25%;
+    height:45%;
+  
+}
+
+input:hover{
+    cursor: pointer;
+    /* background-color: blue; */
+    color: rgb(10, 10, 10);
+    font-size:large;
+}
+.block4{
+    /* background-color: rgb(255, 115, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    
+}
+.block4 p{
+    font-size: 20px;
+    
+}
+.block5{
+    /* background-color: rgb(0, 255, 179); */
+    display:flex;
+    align-items: center;
+
+}
+.block5 p{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.block5 p:hover{
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+ .block6{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+ }
+ 
+.footer1{
+    display: flex;
+    
+    gap: 20px;
+    font-size: 20px;
+
+}
+/* .footer1 a{
+    padding: 2%;
+} */
+.footer2{
+    display: flex;
+    gap: 20px;
+    
+    font-size: 20px;
+}
